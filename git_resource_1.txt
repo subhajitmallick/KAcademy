@@ -1,0 +1,35 @@
+- install git
+- go to GitHub, create a repo
+- copy everycode you see from the GitHub to notepad
+- create a project / folder
+- keep files
+- open the folder with terminal
+
+- git init
+- git add .
+- git commit -m "adding files"
+
+git config user.email "new-email@example.com"
+git config user.name "MonalSingh"
+
+git branch -M main
+git remote add origin https://github.com/Monalsingh/abc.git
+git push -u origin main
+
+###########################################################################
+
+…or create a new repository on the command line
+
+echo "# KAcademy" >> README.md
+git init
+git add README.md                   ## git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/subhajitmallick/KAcademy.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/subhajitmallick/KAcademy.git
+git branch -M main
+git push -u origin main
