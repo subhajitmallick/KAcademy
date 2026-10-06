@@ -5,31 +5,41 @@
 - keep files
 - open the folder with terminal
 
-- git init
-- git add .
-- git commit -m "adding files"
+- git init                                           ## initialize the corresponding directory with git.
+- git add .                                          ## (start tracking all the files)
+- git commit -m "adding files"                       ## need to save it with some messages or creating a checkpoint
 
-git config user.email "new-email@example.com"
+git config user.email "new-email@example.com"        ## initialize it with ypur identity
 git config user.name "MonalSingh"
 
-git branch -M main
-git remote add origin https://github.com/Monalsingh/abc.git
-git push -u origin main
+git branch -M main                                   ## going to the main branch
+git remote add origin https://github.com/Monalsingh/abc.git                 ## create a connection from local to online
+git push -u origin main                              ## push all the code to the main branch
 
 ###########################################################################
 
 …or create a new repository on the command line
 
 echo "# KAcademy" >> README.md
-git init
-git add README.md                   ## git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/subhajitmallick/KAcademy.git
-git push -u origin main
+git init                                            ## initialize the corresponding directory with git.
+git add README.md                                   ## Replace with - git add .    ## (start tracking all the files)
+git commit -m "first commit"                        ## need to save it with some messages or creating a checkpoint
+
+git branch -M main                                  ## going to the main branch
+git remote add origin https://github.com/subhajitmallick/KAcademy.git       ## create a connection from local to online
+git push -u origin main                             ## push all the code to the main branch
+
 
 …or push an existing repository from the command line
 
-git remote add origin https://github.com/subhajitmallick/KAcademy.git
-git branch -M main
-git push -u origin main
+git remote add origin https://github.com/subhajitmallick/KAcademy.git       ## create a connection from local to online
+git branch -M main                                  ## going to the main branch
+git push -u origin main                             ## push all the code to the main branch
+
+###########################################################################
+
+git clone https://github.com/subhajitmallick/KAcademy.git                   ## clone the full project
+
+###########################################################################
+
+git pull origin main                                ## get all the updated files into the local system from online
